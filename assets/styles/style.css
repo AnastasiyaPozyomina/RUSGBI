@@ -1,0 +1,274 @@
+body {
+    background: #ffffff;
+
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1135px;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 140%;
+    padding-top: 10px;
+    color: #000000;
+    margin-left: 65px;
+}
+
+/* header*/
+
+.main-panel-top {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    border-bottom: 1px solid #E4E4E4;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 6px;
+    padding-bottom: 19px;
+}
+
+.main-panel-top img {
+    padding-top: 11px;
+    padding-right: 7px;
+}
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    margin-top: 11px;
+}
+
+nav a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    margin-left: 37.5px;
+
+}
+
+.main-panel-bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 29px 0.5px;
+    padding-bottom: 25px;
+
+}
+
+.logo {
+    display: flex;
+    margin-left: 4px;
+}
+
+.logo__title {
+    font-family: Montserrat;
+    font-size: 12px;
+    line-height: 15px;
+    width: 25%;
+    margin-left: 18px;
+    color: #000000;
+    margin-top: 14px;
+}
+
+.location__button a {
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.main-panel-bottom__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.phone-number {
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 23px;
+}
+
+.phone-number a {
+    margin-right: 30px;
+}
+
+.user-icon {
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 48.53px;
+    height: 48px;
+    padding: 3.3%;
+    margin-top: 12px;
+    display: block;
+    text-align: center;
+    margin-left: 20px;
+}
+
+
+.cart {
+    display: flex;
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 30px;
+    width: 152.8px;
+    height: 44px;
+    margin-top: 13px;
+    padding-left: 17px;
+    padding-top: 2px;
+    margin-right: -2px;
+}
+
+.cart__icon {
+    margin-right: 12px;
+}
+
+.cart__price {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+
+/* search to catalog*/
+.search-container {
+    background: #343434;
+    padding-top: 23px;
+    padding-bottom: 24px;
+    padding-left: 29px;
+    padding-right: 35px;
+
+}
+
+ul {
+    padding: 0;
+}
+
+#menu-catalog {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    box-shadow: 0px 14px 50px rgba(0, 0, 0, 0.15);
+
+}
+
+#menu-catalog li {
+    list-style: none;
+    padding: 26px 16px;
+
+}
+
+
+
+#menu-catalog li a {
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+
+}
+
+
+#menu-catalog li:first-child {
+    background-color: #343434;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+#menu-catalog li img:first-child {
+    margin-right: 17px;
+}
+
+.search {
+    background: #FFFFFF;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px 2px;
+}
+
+.search__submit {
+    background-color: #FDBD1C;
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    width: 101px;
+
+}
+
+.search__text {
+    width: 87%;
+    border: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-left: 5px;
+    padding: 13px;
+}
+
+/* main content*/
+.main-content {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    padding-top: 60px;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 50px rgba(0, 0, 0, 0.15);
+    padding-bottom: 53px;
+}
+
+.advantages {
+    display: flex;
+    height: 100%;
+    margin-top: 65px;
+    margin-left: 60px;
+}
+
+.advantage-item {
+    margin: 37px 94px 0px 0px;
+    display: block;
+}
+
+
+.advantage-item p {
+    display: block;
+}
+
+
+.advantage-item img {
+    display: block;
+    margin-bottom: 27px;
+}
