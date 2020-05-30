@@ -20,20 +20,22 @@
                             alt="иконка местоположения">Санкт-Петербург</a></div>
 
                 <nav class="nav">
-                    <a class="nav__link" href="#">О компании</a>
-                    <a class="nav__link" href="#">Отзывы</a>
-                    <a class="nav__link" href="#">Статьи</a>
-                    <a class="nav__link" href="#">Вопросы и ответы</a>
-                    <a class="nav__link" href="#">Контакты</a>
+                    <a class="nav__link link" href="#">О компании</a>
+                    <a class="nav__link link" href="#">Отзывы</a>
+                    <a class="nav__link link" href="#">Статьи</a>
+                    <a class="nav__link link" href="#">Вопросы и ответы</a>
+                    <a class="nav__link link" href="#">Контакты</a>
                 </nav>
             </div>
             <div class="main-panel-bottom">
-                <div class="logo"><a href="#"><img src="assets/images/main-panel/image 1.svg" alt="логотип БЖИ"></a>
+                <div class="logo"><a href="index.html"><img src="assets/images/main-panel/image 1.svg"
+                            alt="логотип БЖИ"></a>
                     <p class="logo__title">Оптовая продажа железобетонных изделий от производителя</p>
                 </div>
                 <div class="main-panel-bottom__items">
-                    <div class="phone-number"><a href="#"><img src="assets/images/main-panel/Vector (1).svg"
-                                alt="иконка телефона"> 8 800 000 00 00</a></div>
+                    <div class="phone-number"><a class="link" href="tel:88000000000"><img
+                                src="assets/images/main-panel/Vector (1).svg" alt="иконка телефона"> 8 800 000 00 00</a>
+                    </div>
                     <div class="cart"><img class="cart__icon" src="assets/images/main-panel/cart-icon.svg"
                             alt="иконка корзины">
                         <p class="cart__price">0 руб</p>
@@ -48,16 +50,15 @@
             <ul id="menu-catalog">
                 <li><a class="menu-catalog__title" href="#"><img src="assets/images/main-content/Group 1.svg"
                             alt="меню каталога">Каталог</a></li>
-                <li><a class="menu-catalog__link" href="#">Автопавильоны</a></li>
-                <li><a class="menu-catalog__link" href="#">Плиты</a></li>
-                <li><a class="menu-catalog__link" href="#">Балки</a></li>
-                <li><a class="menu-catalog__link" href="#">Блоки</a></li>
-                <li><a class="menu-catalog__link" href="#">Брусы</a></li>
-                <li><a class="menu-catalog__link" href="#">Вазоны</a></li>
-                <li><a class="menu-catalog__link" href="#">Гаражи</a></li>
-                <li><a class="menu-catalog__link" href="#">Гаражи</a></li>
-                <li><a class="menu-catalog__link" href="#"><img src="assets/images/main-content/Union.svg"
-                            alt="..."></a></li>
+                <li><a class="menu-catalog__link link" href="#">Автопавильоны</a></li>
+                <li><a class="menu-catalog__link link" href="#">Плиты</a></li>
+                <li><a class="menu-catalog__link link" href="#">Балки</a></li>
+                <li><a class="menu-catalog__link link" href="#">Блоки</a></li>
+                <li><a class="menu-catalog__link link" href="#">Брусы</a></li>
+                <li><a class="menu-catalog__link link" href="#">Вазоны</a></li>
+                <li><a class="menu-catalog__link link" href="#">Гаражи</a></li>
+                <li><a class="menu-catalog__link link" href="#">Гаражи</a></li>
+                <li><a class="menu-catalog__link link other" href="">...</a></li>
             </ul>
             <div class="search-container">
                 <form class="search">
@@ -89,210 +90,314 @@
             <div class="main-content--right">
                 <img src="assets/images/main-content/Железобетонные перекрытия.png" alt="железобетонные перекрытия">
             </div>
+            <!-- display:none -->
+            <div class="catalog-open">
+                <ul class="catalog-open__list">
+                    <li class="catalog__item"><a href="#"> &gt; Автопавильоны</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Балки</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Анкеры</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Блоки</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Брусы</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Вазоны</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Гаражи</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Гаражи</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Автопавильоны</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Балки</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Анкеры</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Блоки</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Вазоны</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Гаражи</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Гаражи</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Анкеры</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Автопавильоны</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Балки</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Анкеры</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Блоки</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Вазоны</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Гаражи</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Гаражи</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Автопавильоны</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Балки</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Анкеры</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Блоки</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Вазоны</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Гаражи</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Гаражи</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Длинное назва...</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Автопавильоны</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Балки</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Анкеры</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Блоки</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Автопавильоны</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Вазоны</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Гаражи</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Гаражи</a></li>
+                    <li class="catalog__item"><a href="#"> &gt; Гаражи</a></li>
+                </ul>
+            </div>
         </section>
+
+
 
         <section class="our-products">
             <h2>Наша продукция</h2>
-            <ul class="our-products__items">
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Автопавильоны</p>
-                        <p class="our-products__price">от 1200 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/image 1 1.svg" alt="Автопавильоны">
-                </li>
-
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Балки </p>
-                        <p class="our-products__price">от 1500 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/image 2 1.svg" alt="Балки">
-                </li>
-
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Железобетонные перекрытия</p>
-                        <p class="our-products__price">от 1500 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/Rectangle 12.svg"
-                        alt="Железобетонные перекрытия">
-                </li>
-
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Балки </p>
-                        <p class="our-products__price">от 1500 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/image 2 1.svg" alt="Балки">
-                </li>
-
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Автопавильоны</p>
-                        <p class="our-products__price">от 1200 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/image 1 1.svg" alt="Автопавильоны">
-                </li>
-
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Железобетонные перекрытия</p>
-                        <p class="our-products__price">от 1500 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/Rectangle 12.svg"
-                        alt="Железобетонные перекрытия">
-                </li>
-
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Автопавильоны</p>
-                        <p class="our-products__price">от 1200 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/image 1 1.svg" alt="Автопавильоны">
-                </li>
-
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <pclass="our-products__title"><span>></span>Железобетонные перекрытия</p>
-                            <p class="our-products__price">от 1500 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/Rectangle 12.svg"
-                        alt="Железобетонные перекрытия">
-                </li>
-
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Балки </p>
-                        <p class="our-products__price">от 1500 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/image 2 1.svg" alt="Балки">
-                </li>
-
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Железобетонные перекрытия</p>
-                        <p class="our-products__price">от 1500 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/Rectangle 12.svg"
-                        alt="Железобетонные перекрытия">
-                </li>
-
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Балки </p>
-                        <p class="our-products__price">от 1500 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/image 2 1.svg" alt="Балки">
-                </li>
-
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <pclass="our-products__title"><span>></span>Автопавильоны</p>
+            <ul class="list">
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Автопавильоны</p>
                             <p class="our-products__price">от 1200 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/image 1 1.svg" alt="Автопавильоны">
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/image 1 1.svg"
+                            alt="Автопавильоны">
+                    </a>
                 </li>
 
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Железобетонные перекрытия</p>
-                        <p class="our-products__price">от 1500 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/Rectangle 12.svg"
-                        alt="Железобетонные перекрытия">
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Балки </p>
+                            <p class="our-products__price">от 1500 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/image 2 1.svg" alt="Балки">
+                    </a>
                 </li>
 
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Автопавильоны</p>
-                        <p class="our-products__price">от 1200 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/image 1 1.svg" alt="Автопавильоны">
+                <li class=" list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Железобетонные перекрытия</p>
+                            <p class="our-products__price">от 1500 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/Rectangle 12.svg"
+                            alt="Железобетонные перекрытия">
+                    </a>
                 </li>
 
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Балки </p>
-                        <p class="our-products__price">от 1500 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/image 2 1.svg" alt="Балки">
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Балки </p>
+                            <p class="our-products__price">от 1500 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/image 2 1.svg" alt="Балки">
+                    </a>
                 </li>
 
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Автопавильоны</p>
-                        <p class="our-products__price">от 1200 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/image 1 1.svg" alt="Автопавильоны">
-                </li>
-
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Балки </p>
-                        <p class="our-products__price">от 1500 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/image 2 1.svg" alt="Балки">
-                </li>
-
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Железобетонные перекрытия</p>
-                        <p class="our-products__price">от 1500 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/Rectangle 12.svg"
-                        alt="Железобетонные перекрытия">
-                </li>
-
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <pclass="our-products__title"><span>></span>Автопавильоны</p>
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Автопавильоны</p>
                             <p class="our-products__price">от 1200 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/image 1 1.svg" alt="Автопавильоны">
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/image 1 1.svg"
+                            alt="Автопавильоны">
+                    </a>
                 </li>
 
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <pclass="our-products__title"><span>></span>Железобетонные перекрытия</p>
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Железобетонные перекрытия</p>
                             <p class="our-products__price">от 1500 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/Rectangle 12.svg"
-                        alt="Железобетонные перекрытия">
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/Rectangle 12.svg"
+                            alt="Железобетонные перекрытия">
+                    </a>
                 </li>
 
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <pclass="our-products__title"><span>></span>Балки </pp>
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Автопавильоны</p>
+                            <p class="our-products__price">от 1200 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/image 1 1.svg"
+                            alt="Автопавильоны">
+                    </a>
+                </li>
+
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Железобетонные перекрытия</p>
                             <p class="our-products__price">от 1500 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/image 2 1.svg" alt="Балки">
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/Rectangle 12.svg"
+                            alt="Железобетонные перекрытия">
+                    </a>
                 </li>
 
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Балки </p>
-                        <p class="our-products__price">от 1500 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/image 2 1.svg" alt="Балки">
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Балки </p>
+                            <p class="our-products__price">от 1500 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/image 2 1.svg" alt="Балки">
+                    </a>
                 </li>
 
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Автопавильоны</p>
-                        <p class="our-products__price">от 1200 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/image 1 1.svg" alt="Автопавильоны">
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Железобетонные перекрытия</p>
+                            <p class="our-products__price">от 1500 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/Rectangle 12.svg"
+                            alt="Железобетонные перекрытия">
+                    </a>
                 </li>
 
-                <li class="our-products__item">
-                    <div class="our-products__caption">
-                        <p class="our-products__title"><span>></span>Железобетонные перекрытия</p>
-                        <p class="our-products__price">от 1500 рублей</p>
-                    </div>
-                    <img class="our-products__img" src="assets/images/our-products/Rectangle 12.svg"
-                        alt="Железобетонные перекрытия">
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Балки </p>
+                            <p class="our-products__price">от 1500 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/image 2 1.svg" alt="Балки">
+                    </a>
                 </li>
+
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Автопавильоны</p>
+                            <p class="our-products__price">от 1200 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/image 1 1.svg"
+                            alt="Автопавильоны">
+                    </a>
+                </li>
+
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Железобетонные перекрытия</p>
+                            <p class="our-products__price">от 1500 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/Rectangle 12.svg"
+                            alt="Железобетонные перекрытия">
+                    </a>
+                </li>
+
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Автопавильоны</p>
+                            <p class="our-products__price">от 1200 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/image 1 1.svg"
+                            alt="Автопавильоны">
+                    </a>
+                </li>
+
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Балки </p>
+                            <p class="our-products__price">от 1500 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/image 2 1.svg" alt="Балки">
+                    </a>
+                </li>
+
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Автопавильоны</p>
+                            <p class="our-products__price">от 1200 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/image 1 1.svg"
+                            alt="Автопавильоны">
+                    </a>
+                </li>
+
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Балки </p>
+                            <p class="our-products__price">от 1500 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/image 2 1.svg" alt="Балки">
+                    </a>
+                </li>
+
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Железобетонные перекрытия</p>
+                            <p class="our-products__price">от 1500 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/Rectangle 12.svg"
+                            alt="Железобетонные перекрытия">
+                    </a>
+                </li>
+
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Автопавильоны</p>
+                            <p class="our-products__price">от 1200 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/image 1 1.svg"
+                            alt="Автопавильоны">
+                    </a>
+                </li>
+
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Железобетонные перекрытия</p>
+                            <p class="our-products__price">от 1500 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/Rectangle 12.svg"
+                            alt="Железобетонные перекрытия">
+                    </a>
+                </li>
+
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Балки </pp>
+                                <p class="our-products__price">от 1500 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/image 2 1.svg" alt="Балки">
+                    </a>
+                </li>
+
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Балки </p>
+                            <p class="our-products__price">от 1500 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/image 2 1.svg" alt="Балки">
+                    </a>
+                </li>
+
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Автопавильоны</p>
+                            <p class="our-products__price">от 1200 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/image 1 1.svg"
+                            alt="Автопавильоны">
+                    </a>
+                </li>
+
+                <li class="list__item">
+                    <a class="our-products__card" href="#">
+                        <div class="our-products__caption">
+                            <p class="our-products__title"><span>></span>Железобетонные перекрытия</p>
+                            <p class="our-products__price">от 1500 рублей</p>
+                        </div>
+                        <img class="our-products__img" src="assets/images/our-products/Rectangle 12.svg"
+                            alt="Железобетонные перекрытия">
+                    </a>
+                </li>
+
             </ul>
             <button class="our-products__btn" type="submit">Вся продукция</button>
         </section>
@@ -376,11 +481,13 @@
         </section>
 
         <section class="sponsors">
-            <img src="assets/images/sponsors/эталон.svg" alt="логотип ЭТАЛОн">
-            <img src="assets/images/sponsors/МИЦ.svg" alt="логотип МИЦ">
-            <img src="assets/images/sponsors/ПИК.svg" alt="логотип ПИК группа">
-            <img src="assets/images/sponsors/ДОНСТРОЙ.svg" alt="логотип ДОНСТРОЙ">
-            <img src="assets/images/sponsors/Конструктор.svg" alt="логотип КОНСТРУКТОР">
+            <a class="sponsors__link" href="#"> <img src="assets/images/sponsors/эталон.svg" alt="логотип ЭТАЛОн"></a>
+            <a class="sponsors__link" href="#"><img src="assets/images/sponsors/МИЦ.svg" alt="логотип МИЦ"></a>
+            <a class="sponsors__link" href="#"><img src="assets/images/sponsors/ПИК.svg" alt="логотип ПИК группа"></a>
+            <a class="sponsors__link" href="#"> <img src="assets/images/sponsors/ДОНСТРОЙ.svg"
+                    alt="логотип ДОНСТРОЙ"></a>
+            <a class="sponsors__link" href="#"><img src="assets/images/sponsors/Конструктор.svg"
+                    alt="логотип КОНСТРУКТОР"></a>
         </section>
     </div>
 
@@ -392,8 +499,9 @@
                     </div>
 
                     <div class="company__contact">
-                        <p class="phone-number">8 800 000 00 00</p>
-                        <p class="">info@ruzhbi.ru</p>
+                        <p class="phone-number"><a class="link" href="tel:88000000000"> 8 800 000 00 00</a></p>
+                        <p class="site"><a class="link" href="mailto:info@ruzhbi.ru">info@ruzhbi.ru</a>
+                        </p>
                     </div>
 
                 </div>
@@ -402,11 +510,11 @@
 
                 <p class="nav-title">Информация</p>
                 <nav class="nav">
-                    <a class="nav__link nav__link--active">О компании</a>
-                    <a class="nav__link" href="#">Отзывы</a>
-                    <a class="nav__link" href="#">Статьи</a>
-                    <a class="nav__link" href="#">Вопросы и ответы</a>
-                    <a class="nav__link" href="#">Контакты</a>
+                    <a class="nav__link link">О компании</a>
+                    <a class="nav__link link" href="#">Отзывы</a>
+                    <a class="nav__link link" href="#">Статьи</a>
+                    <a class="nav__link link" href="#">Вопросы и ответы</a>
+                    <a class="nav__link link" href="#">Контакты</a>
                 </nav>
 
                 <p class="copyright">Политика конфиденциальности</p>
@@ -428,8 +536,6 @@
                     <ul class="catalog__list">
                         <li class="catalog__item"><a href="#">Автопавильоны</a></li>
                         <li class="catalog__item"><a href="#">Анкеры</a></li>
-                        <li class="catalog__item"><a href="#">Балки</a></li>
-                        <li class="catalog__item"><a href="#">Заборы, панели огражд...</a></li>
                         <li class="catalog__item"><a href="#">Блоки</a></li>
                         <li class="catalog__item"><a href="#">Бруски (брусы) электро...</a></li>
                         <li class="catalog__item"><a href="#">Вазоны</a></li>
@@ -452,7 +558,7 @@
                         <li class="catalog__item"><a href="#">Гаражи</a></li>
                         <li class="catalog__item"><a href="#">Автопавильоны</a></li>
                         <li class="catalog__item"><a href="#">Анкеры</a></li>
-                        <li class="catalog__item"><a href="#">Смотреть все</a></li>
+                        <!-- <li class="catalog__item"><a class="link" href="#">Смотреть все</a></li> -->
                     </ul>
                     <div class="footer__logo"><a href="#"><img src="assets/images/footer/logocomp.svg"
                                 alt="логотип компании"></a></div>
