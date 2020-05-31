@@ -1,16 +1,16 @@
-var acc = document.getElementsByClassName("characteristics__accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight) {
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  });
+let openCatalog = document.querySelector('.catalog-open');
+let openbasket = document.querySelector('.basket');
+let basket = document.querySelector('.cart-click').addEventListener('click', openBacket);
+let arrowTop = document.querySelector('.arrow-top').addEventListener('click', closeBacket);
+function clickButtons() {
+  openCatalog.classList.toggle('open');
 }
 
-
+function openBacket() {
+  openbasket.style.display = 'block';
+  
+}
+function closeBacket() {
+  openbasket.style.display = 'none';
+  
+}
