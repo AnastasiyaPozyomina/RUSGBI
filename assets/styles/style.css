@@ -1190,3 +1190,33 @@ input {
     -ms-flex-direction: column;
     flex-direction: column;
 }
+
+
+
+
+
+/* content html   */
+
+.about-content {
+display: flex;
+flex-direction: row;
+}
+
+.about-content--left {
+
+}
+
+.about-content--right {
+    display: flex;
+    flex-direction: column;
+}
+
+/*our team*/
+
+.our-team__list {
+    display: flex;
+    flex-direction: row;
+}
+.our-team__item {
+   
+}

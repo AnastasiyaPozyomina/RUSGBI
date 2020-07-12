@@ -14,3 +14,9 @@ function closeBacket() {
   openbasket.style.display = 'none';
   
 }
+
+
+$('.slider').slick({
+  dots: true,
+  slidesToScroll: 1
+});
